@@ -1,0 +1,61 @@
+*{
+    font-family: candara;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    position: relative;
+}
+
+header{
+    border-top: solid 4px rgb(27, 208, 249);
+    background-color: gainsboro;
+}
+
+h3{
+    color:rgb(27, 208, 249); 
+}
+
+nav a{
+    color:rgb(27, 208, 249); 
+    text-decoration: none;
+}
+
+aside{
+    margin-right: 200px;
+    background-color: gainsboro;
+    border-top:solid 4px rgb(27, 208, 249);
+    border-bottom:solid 4px rgb(27, 208, 249);
+}
+
+aside h3{
+    color:black;
+}
+
+.top{
+    background-color: yellow;
+    position:relative;
+    right:0;
+    max-width:50px;
+    font-weight: bold;
+    margin-left: 500px;
+}
+
+.inline{
+    color:rgb(27, 208, 249); 
+    display:inline;
+}
+
+.btn{
+    position:absolute;
+    right:0;
+    bottom: 0;
+    
+    
+}
+
+li:first-child{
+    font-weight: bold;
+}
